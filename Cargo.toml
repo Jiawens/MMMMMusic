@@ -1,0 +1,16 @@
+[package]
+name = "mmmmmusic"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+audiotags = "0.4.1"
+crossterm = { version = "0.27.0", features = ["event-stream"] }
+ratatui = "0.25.0"
+rodio = "0.17.3"
+tokio = { version = "1.35.1", features = ["full"] }
+tokio-stream = "0.1.14"
+uuid = { version = "1.5.0", features = ["v4"] }
